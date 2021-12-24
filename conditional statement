@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int grade;
+	printf("enter your marks out of 100\n");
+	scanf("%d",&grade);
+	if( grade<0 || grade>100)
+	{printf ("invalid input");
+	return 0;
+	}
+	if (grade>=90 && grade<=100)
+	{printf ("grade is A");
+	}
+	else if(grade>=80)
+	{printf("grade is B");
+	}
+	else if(grade>=70)
+	{printf("grade is C");
+	}
+	else if(grade>=60)
+	{printf("grade is D");
+	}
+	else 
+	{printf("grade is E");
+	}
+	
+	return 0;
+}
