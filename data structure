@@ -13,12 +13,11 @@ printf("Emp No. :-\t");
 scanf("%d",&e.eno);
 printf("Emp Name :-\t");
 scanf("%s",&e.ename);
-printf("Emp salary :-\t");
-scanf("%f",&e.esal);
 printf("employee department:-\t");
 scanf("%s",&e.dept);
+printf("Emp salary :-\t");
+scanf("%f",&e.esal);
 printf("\n \n");
-
 printf("Enter 1 to print");
 scanf("%d",&j);
 if(j==1){
