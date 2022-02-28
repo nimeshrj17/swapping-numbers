@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+void  main()
+{clrscr();
+inta[10],i;
+cout<<"enter the 5 elements of the array\n";
+for(i=0;i<5;i++)
+{cin>>a[i];
+}
+cout<<"the elements of the array are \n";
+for(i=0;i<5;i++)
+{cout<<a[i]<<endl;
+}
+getch();
+}
