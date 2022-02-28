@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{clrscr();
+char a;
+int b;
+float c;
+double d;
+cout<<"the size of htese datatype are:-"<<endl;
+cout<<"character"<<sizeof(a)<<endl;
+cout<<"integer"<<sizeof(b)<<endl;
+cout<<"decimal"<<sizeof(c)<<endl;
+cout<<"large integer"<<sizeof(d);
+getch();
+}
